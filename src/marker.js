@@ -10,7 +10,7 @@ const buildMarker = function(type, coords) {
   const markerDomEl = document.createElement('div');
   markerDomEl.style.width = '32px';
   markerDomEl.style.height = '39px';
-  markerDomEl.style.backgroundImage = 'url(' + iconURLs[type] + ')';
+  markerDomEl.style.backgroundImage = `url(${iconURLs[type]})`;
   return new mapbox.Marker(markerDomEl).setLngLat(coords);
 };
 
