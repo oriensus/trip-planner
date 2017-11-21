@@ -4,9 +4,13 @@
   "description": "trip planner project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w"
   },
   "author": "",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
